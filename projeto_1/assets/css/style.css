@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    
+}
+.container-img{
+    width: 348px;
+    height: 223px;
+}
+.titulo-palavra-unico, .primeiro-paragrafo, .segundo-paragrafo, .container-links a{
+    color: #FF9900;
+}
+.container-titulo{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    font-size: 29px;
+    width: 700px;
+    text-align: center;
+}
+.container-paragrafos{
+    font-family: 'Open Sans', sans-serif;
+    width: 790px;
+    text-align: center;
+    font-size: 18px;
+    color: #7D7987;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.negrito{
+    font-weight: bold;
+}
+.container-links{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    font-size: 18px;
+    margin-top: 50px;
+}

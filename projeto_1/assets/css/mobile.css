@@ -1,0 +1,47 @@
+@media(max-width:700px){
+    .container-titulo{
+        font-weight: 100;
+        font-size: 19px;
+        width: 500px;
+    }
+    
+    .container{
+        row-gap: 50px;
+        
+    }
+    .container-paragrafos{
+        width: 500px;
+        font-size: 18px;
+        row-gap: 50px;
+    }
+    
+}
+@media(max-width:400px){
+    .container-titulo{
+        font-size: 12px;
+        width: 300px;
+    }
+    .container{
+        row-gap: 20px;
+        
+    }
+    .container-img{
+        width: 100% !important;
+        height: 223px;
+       
+    }
+    .container-img figure{
+        width: 100%;
+    }
+    .container-img figure img{
+        max-width: 100%;
+    }
+    .container-links{
+        font-size: 12px;
+    }
+    .container-paragrafos{
+        width: 300px;
+        font-size: 12px;
+        row-gap: 50px;
+    }
+}
