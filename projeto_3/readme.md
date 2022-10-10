@@ -6,7 +6,7 @@
 <p align="center" style="padding:20px;font-size:18px">Desenvolver um layout disponibilizado no Figma com HTML e CSS</p>
 <h1 align="center">DESKTOP</h1>
 
-![prjeto_3](https://user-images.githubusercontent.com/83427685/194942143-75286cc4-92c0-4e30-9254-3b9afb1cf811.png)
+![projeto_3](https://user-images.githubusercontent.com/83427685/194942934-c8d842f5-9fdf-4b3f-a460-c9b4f622d4d8.png)
 
 <h1 align="center">MOBILE</h1>
 
