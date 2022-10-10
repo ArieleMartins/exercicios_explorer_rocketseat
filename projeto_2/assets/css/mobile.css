@@ -1,0 +1,52 @@
+@media(max-width:900px){
+    .principal{
+        grid-template-columns: 1fr;
+        height: 130vh;
+    
+    }
+}
+@media(max-width:600px){
+    .container{
+        padding-top: 20px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .cabecalho{
+        padding: 10px;
+        height: 40px;
+    }
+    .menu{
+        font-size: 12px;
+        column-gap: 15px;
+        align-items: center;
+    }
+    .principal{
+        text-align: center;
+    }
+    .apresentacao{
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        padding: 20px;
+    }
+    .apresentacao h1{
+        font-size: 29px;
+    }
+    .apresentacao p{
+        font-size: 15px;
+    }
+    .apresentacao button{
+        width: 150px;
+    }
+    .container{
+        width: 100%;
+    }
+    .container-img figure{
+        width: 100%;
+    }
+    .container-img img{
+        max-width: 100%;
+    }
+}
