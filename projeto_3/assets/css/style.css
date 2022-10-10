@@ -77,7 +77,8 @@ footer img{
 }
 footer p{
     width: 600px;
-    padding: 20px;
+    padding: 32px 0px 0px 0px;
     border-top:2px solid #00BFA6;
     text-align: center;
+    
 }
