@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <title>Desafio 4 - Rocketseat</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="apresentacao">
+            <h1>Crie e compartilhe<br>seu evento</h1>
+            <p>O primeiro passo é preenche esse <br>formulario de inscrição.</p>
+        </div>
+        <form action="" method="post">
+            <div class="container-form">
+                <h2>Informações do Evento</h2>
+                <fieldset>
+                    <div class="container-input">
+                        <label for="titulo-evento">Titulo do evento <span class="font-color">(mínimo 8 caracteres)</span></label>
+                        <input type="text" id="titulo-evento" minlength="8" class="input" required>
+                    </div>
+                    <div class="container-input">
+                        <label for="link-evento">Link do evento <span class="font-color">(comece com https://)</span></label>
+                        <input type="url" id="link-evento" class="input" required>
+                    </div>
+                    <div class="container-input">
+                        <label for="whatsapp">Whatsapp para contato <span class="font-color">(somente números)</span></label>
+                        <input type="text" id="whatsapp" class="input" required>
+                    </div>
+                    <div class="container-input">
+                        <label for="extras">Informações Extra</label>
+                        <textarea name="" id="extra" cols="30" rows="10" class="input"></textarea>
+                    </div>
+                    <div class="container-input">
+                        <label for="categoria">Categoria</label>
+                        <div class="icon-select">
+                            <select name="" id="categoria" required class="input">
+                                <option value="" disabled selected class="placeholder-select">Tipo do evento</option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+
+                <h2>Privacidade</h2>
+                <fieldset>
+                    <div class="container-input">
+                        <label for="e-email">E-mail do administrador <span class="font-color">(digite um email
+                                valido)</span></label>
+                        <input type="email" id="e-mail" class="input" required>
+                    </div>
+                    <div class="container-input">
+                        <label for="senha">Senha de acesso para os participantes <span class="font-color">(mínimo de 8
+                                caracteres)</span></label>
+                        <input type="password" id="senha" minlength="8" class="input" required>
+                    </div>
+                    <div class="container-checkbox">
+                        <input type="checkbox" id="evento-privado">
+                        <label for="evento-privado">Evento Privado</label>
+                    </div>
+                </fieldset>
+
+                <h2>Data e Hora</h2>
+                <fieldset class="grid">
+                    <div class="container-input">
+                        <label for="data">Data</label>
+                        <input type="text" id="data" class="input" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                    </div>
+                    <div class="container-input">
+                        <label for="das">Das</label>
+                        <input type="text" id="das" class="input" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="19:00" required>
+                    </div>
+                    <div class="container-input">
+                        <label for="ate">Até</label>
+                        <input type="text" id="ate" class="input" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="20:00" required>
+                    </div>
+                </fieldset>
+                
+            </div>
+            <div class="container-btn">
+                <button id="btnSalvar" class="btnSalvar">Salvar Evento</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
