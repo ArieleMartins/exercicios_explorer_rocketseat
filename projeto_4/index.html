@@ -22,24 +22,24 @@
                 <fieldset>
                     <div class="container-input">
                         <label for="titulo-evento">Titulo do evento <span class="font-color">(mínimo 8 caracteres)</span></label>
-                        <input type="text" id="titulo-evento" minlength="8" class="input" required>
+                        <input type="text" id="titulo-evento" minlength="8" class="input" required tabindex="1">
                     </div>
                     <div class="container-input">
                         <label for="link-evento">Link do evento <span class="font-color">(comece com https://)</span></label>
-                        <input type="url" id="link-evento" class="input" required>
+                        <input type="url" id="link-evento" class="input" required tabindex="2">
                     </div>
                     <div class="container-input">
                         <label for="whatsapp">Whatsapp para contato <span class="font-color">(somente números)</span></label>
-                        <input type="text" id="whatsapp" class="input" required>
+                        <input type="text" id="whatsapp" class="input" required tabindex="3">
                     </div>
                     <div class="container-input">
                         <label for="extras">Informações Extra</label>
-                        <textarea name="" id="extra" cols="30" rows="10" class="input"></textarea>
+                        <textarea name="" id="extra" cols="30" rows="10" class="input" tabindex="4"></textarea>
                     </div>
                     <div class="container-input">
                         <label for="categoria">Categoria</label>
                         <div class="icon-select">
-                            <select name="" id="categoria" required class="input">
+                            <select name="" id="categoria" required class="input" tabindex="5">
                                 <option value="" disabled selected class="placeholder-select">Tipo do evento</option>
                                 <option value=""></option>
                                 <option value=""></option>
@@ -54,15 +54,15 @@
                     <div class="container-input">
                         <label for="e-email">E-mail do administrador <span class="font-color">(digite um email
                                 valido)</span></label>
-                        <input type="email" id="e-mail" class="input" required>
+                        <input type="email" id="e-mail" class="input" required tabindex="6">
                     </div>
                     <div class="container-input">
                         <label for="senha">Senha de acesso para os participantes <span class="font-color">(mínimo de 8
                                 caracteres)</span></label>
-                        <input type="password" id="senha" minlength="8" class="input" required>
+                        <input type="password" id="senha" minlength="8" class="input" required tabindex="7">
                     </div>
                     <div class="container-checkbox">
-                        <input type="checkbox" id="evento-privado">
+                        <input type="checkbox" id="evento-privado" tabindex="8" checkeds>
                         <label for="evento-privado">Evento Privado</label>
                     </div>
                 </fieldset>
@@ -71,15 +71,15 @@
                 <fieldset class="grid">
                     <div class="container-input">
                         <label for="data">Data</label>
-                        <input type="text" id="data" class="input" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                        <input type="text" id="data" class="input" onfocus="(this.type='date')" onblur="(this.type='text')" required tabindex="9">
                     </div>
                     <div class="container-input">
                         <label for="das">Das</label>
-                        <input type="text" id="das" class="input" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="19:00" required>
+                        <input type="text" id="das" class="input" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="19:00" required tabindex="10">
                     </div>
                     <div class="container-input">
                         <label for="ate">Até</label>
-                        <input type="text" id="ate" class="input" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="20:00" required>
+                        <input type="text" id="ate" class="input" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="20:00" required translate="11">
                     </div>
                 </fieldset>
                 
@@ -90,5 +90,4 @@
         </form>
     </div>
 </body>
-
 </html>

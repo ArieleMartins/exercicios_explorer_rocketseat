@@ -1,5 +1,6 @@
 <h1 align="center">Desafio 2 - Rocketseat</h1>
 <p align="center" style="padding:20px;font-size:18px">Desenvolver um layout disponibilizado no Figma com HTML e CSS</p>
+<p>Link do projeto: <a href="https://arielemartins.github.io/exercicios_explorer_rocketseat/projeto_2/" target="_blank" >Desafio 2</a></p>
 <h1 align="center">DESKTOP</h1>
 
 ![projeto_2](https://user-images.githubusercontent.com/83427685/194927404-7369c882-f2a0-40ac-9d99-ca77099bf226.png)

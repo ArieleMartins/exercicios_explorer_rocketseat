@@ -1,6 +1,6 @@
 <h1 align="center">DESAFIO 1</h1>
 <p align="center" style="font-size:18px; padding:20px">Desenvolver um layout disponibilizado no Figma apenas com html e css</p>
-
+<p>Link do projeto: <a href="https://arielemartins.github.io/exercicios_explorer_rocketseat/projeto_1/" target="_blank" >Desafio 1</a></p>
 <h1 align="center">DESKTOP</h1>
 
 ![projeto_1](https://user-images.githubusercontent.com/83427685/194783400-04c1be00-dc36-40ad-8685-8cda639f13d9.png)
