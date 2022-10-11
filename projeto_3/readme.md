@@ -4,7 +4,7 @@
 
 <h1 align="center">Desafio 3 - Rocketseat</h1>
 <p align="center" style="padding:20px;font-size:18px">Desenvolver um layout disponibilizado no Figma com HTML e CSS</p>
-<p>Link do projeto: <a href="https://arielemartins.github.io/exercicios_explorer_rocketseat/projeto_3/" target="_blank" >Desafio 3</a></p>
+<p align="center">Link do projeto: <a href="https://arielemartins.github.io/exercicios_explorer_rocketseat/projeto_3/" target="_blank" >Desafio 3</a></p>
 <h1 align="center">DESKTOP</h1>
 
 ![projeto_3_desktop](https://user-images.githubusercontent.com/83427685/194943703-2c4654cb-26a9-4f74-8ce1-85aa3d297511.png)
